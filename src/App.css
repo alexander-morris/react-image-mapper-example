@@ -20,3 +20,29 @@
 .App-link {
   color: #09d3ac;
 }
+
+.tooltiptext {
+  visibility: hidden;
+  color: white;
+}
+
+.tooltip {
+    min-width: 10em;
+    min-height: 10em;
+    position: absolute;
+    padding: 1em;
+}
+
+.tooltip:before {
+  content: "♥";
+  color: red;
+}
+
+.tooltip:hover {
+  background: black;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
