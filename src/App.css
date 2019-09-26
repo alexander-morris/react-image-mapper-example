@@ -17,8 +17,18 @@
   color: white;
 }
 
-.App-link {
+/*.App-link {
   color: #09d3ac;
+}
+
+.App {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}*/
+/*
+img.background {
+   max-width: 100%; 
 }
 
 .tooltiptext {
@@ -46,3 +56,20 @@
   visibility: visible;
 }
 
+*/
+
+
+.container {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    color: #fff;
+    padding: 10px;
+    background: rgba(0,0,0,0.8);
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 5px;
+    pointer-events: none;
+    z-index: 1000;
+}
